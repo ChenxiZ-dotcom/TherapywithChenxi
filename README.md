@@ -33,3 +33,4 @@ All pages, the sitemap, and robots.txt already use https://therapywithchenxi.com
 - `burnout-perfectionism.html`: burnout and perfectionism
 - `first-session.html`: what to expect
 - `sitemap.xml` and `robots.txt` help Google find every page. Submit `https://therapywithchenxi.com/sitemap.xml` in Google Search Console.
+
