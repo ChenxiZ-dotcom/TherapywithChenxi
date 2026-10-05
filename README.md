@@ -19,8 +19,8 @@ Buy a domain (for example chenxizhucounseling.com), then add it under Settings >
 ## 4. Making changes later
 Edit `index.html` directly on GitHub (pencil icon), then commit. The site updates in a minute or two.
 
-## 5. Finish the search and sharing tags
-Once you know your site address (for example `https://YOUR-USERNAME.github.io/chenxi-counseling` or your own domain), open `index.html` and replace every `YOUR-SITE-ADDRESS` with it (near the top of each page). This lets Google and link previews show the right page and photo.
+## 5. Search and sharing tags (done)
+All pages, the sitemap, and robots.txt already use https://therapywithchenxi.com. The CNAME file tells GitHub Pages your custom domain.
 
 ## 6. Help Google find you
 - Add your site link to your Psychology Today profile, and ask Full Circle Counseling of TN to link to it from their website.
@@ -32,4 +32,4 @@ Once you know your site address (for example `https://YOUR-USERNAME.github.io/ch
 - `chronic-pain.html`: chronic pain and the brain
 - `burnout-perfectionism.html`: burnout and perfectionism
 - `first-session.html`: what to expect
-- `sitemap.xml` and `robots.txt` help Google find every page. Replace `YOUR-SITE-ADDRESS` in these two files too, then submit `https://YOUR-SITE-ADDRESS/sitemap.xml` in Google Search Console.
+- `sitemap.xml` and `robots.txt` help Google find every page. Submit `https://therapywithchenxi.com/sitemap.xml` in Google Search Console.
