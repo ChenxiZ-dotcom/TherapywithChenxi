@@ -32,5 +32,6 @@ All pages, the sitemap, and robots.txt already use https://therapywithchenxi.com
 - `chronic-pain.html`: chronic pain and the brain
 - `burnout-perfectionism.html`: burnout and perfectionism
 - `first-session.html`: what to expect
+- `workshops.html`: workshops for workplaces and teams
 - `sitemap.xml` and `robots.txt` help Google find every page. Submit `https://therapywithchenxi.com/sitemap.xml` in Google Search Console.
 
