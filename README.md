@@ -34,5 +34,6 @@ All pages, the sitemap, and robots.txt already use https://therapywithchenxi.com
 - `first-session.html`: what to expect
 - `workshops.html`: workshops for workplaces and teams
 - `faq.html`: common questions
+- `couples.html`: couples therapy and the Gottman Method
 - `sitemap.xml` and `robots.txt` help Google find every page. Submit `https://therapywithchenxi.com/sitemap.xml` in Google Search Console.
 
