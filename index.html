@@ -185,7 +185,7 @@ summary::-webkit-details-marker{display:none}
 
 <section id="couples" aria-labelledby="couples-h" style="max-width: 1200px; margin: 0 auto; padding: 128px 32px">
 <div style="display: flex; flex-wrap: wrap; gap: 56px; align-items: center; margin-bottom: 72px">
-<div style="flex: 1 1 320px; min-width: 0"><img src="images/lilies.jpg" loading="lazy" alt="Three water lilies blooming among lily pads on a still, dark pond" style="width: 100%; height: 24rem; border-radius: 24px; object-fit: cover; object-position: center; display: block"><p style="margin: 10px 0 0; font-size: 13px; font-style: italic; color: #4A5856">Photo by Cheng Shi Song on <a href="https://www.pexels.com" style="color: #4A5856">Pexels</a></p></div>
+<div style="flex: 1 1 320px; min-width: 0"><video id="couples-video" poster="images/couple-walk-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Black-and-white video of a couple walking hand in hand through a leafy archway toward a stone staircase" style="width: 100%; height: 30rem; border-radius: 24px; object-fit: cover; object-position: center 60%; display: block; background: #DCE2DE"><source src="videos/couple-walk.mp4" type="video/mp4"><source src="videos/couple-walk.webm" type="video/webm"></video></div>
 <div style="flex: 999 1 520px; min-width: 0">
 <p style="margin: 0 0 12px; font-size: 15px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #2C5A56">Couples therapy</p>
 <h2 id="couples-h" style="margin: 0 0 20px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 2.5rem; line-height: 1.15">When stress comes home, your relationship feels it too.</h2>
@@ -314,6 +314,8 @@ summary::-webkit-details-marker{display:none}
 
 </div>
 <script>
+var cv = document.getElementById('couples-video');
+if (cv && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) { cv.removeAttribute('autoplay'); cv.pause(); }
 document.getElementById('consult-form').addEventListener('submit', async function (e) {
   e.preventDefault();
   var form = e.target, status = document.getElementById('form-status'), btn = form.querySelector('button[type=submit]');
